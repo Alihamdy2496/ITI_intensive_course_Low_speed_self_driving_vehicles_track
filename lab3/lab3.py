@@ -160,4 +160,3 @@ def Q_16():
     print("\n".join(listt))
     print("the count = ",len(listt))
     
-Q_16()
