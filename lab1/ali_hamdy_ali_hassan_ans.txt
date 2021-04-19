@@ -1,0 +1,106 @@
+***********Q1**************                               //## Great Explanation ##//
+
+cat prints (all) the content of the givens files (without any separtors)
+
+more prints (pages) of the content of the givens files (with separtors) and we go to the next page with ENTER key
+
+*************Q2**************      ---------> pwd
+
+cd /
+ls
+
+*************Q3**************
+cd /home    //## keep in mind that /home is not user home directory , the home directory is /home/<your pc name> or cd ##//
+
+sudo mkdir sample        //## Excellent ##//
+**************Q4*************
+
+sudo mkdir -p sample/hello               //## Excellent ##//
+
+**************Q5*************
+
+sudo mkdir /home/hello                   //## Excellent ##//            
+
+**************Q6*************
+
+sudo rmdir hello                         //## Excellent ##//
+
+**************Q7*************
+
+sudo mkdir -p sample/sample/hello                       //## Excellent ##//
+
+**************Q8*************                              //## Excellent ##//
+
+sudo touch .hiddenfile
+
+**************Q9*************                       //## Excellent ##//
+
+man rm -> rm - remove files or directories
+           (-r remove directories and their contents recursively)
+           (-d remove empty directories)
+
+man rmdir-> rmdir - remove empty directories
+
+**************Q10*************         
+
+sudo mkdir -p dir/dir1 dir/dir2 docs/WS-ITI             //## Really Perfect ##//
+touch dir/dir1/file1
+
+**************Q11*************
+
+sudo rm -R dir                                          //## Excellent ##//   ---> sudo rm -R dir1
+
+**************Q12*************                                //## Perfect ##//
+rmdir –p -> removes the previous directores so if we want to delete only dir2
+we need t navigate to dir
+
+cd dir                        
+sudo rmdir -p dir2
+
+**************Q13*************                     //## Excellent ##//
+
+                                                 //## Read the question carefuly  ##//
+
+                                 ------>                      first make dir ITI_WS in Downloads : mkdir -p ~/Downloads/ITI_WS
+                                 ------>                      relative: cd Downloads/ITI_WS/
+                                 ------>                      abs:cd /home/ubuntu/Downloads/ITI_WS/
+
+absolute -> cd /home/user/Downloads/WS-ITI
+relative -> cd ./Downloads/WS-ITI
+
+**************Q14*************                 
+
+mv /etc/password /home/my_passwd                     --------> cp /etc/passwd /home/<your pc name>/my_passwd
+mv /home/my_passwd /home/old_passwd
+
+**************Q15*************
+
+cd /home          ---------> cd
+
+cd ../../home       ----------> cd ~
+
+cd ~/..            -----------> cd /home/<your pc name>
+
+**************Q16*************
+
+ls /usr/bin | grep ^w            //## Excellent ##//
+
+**************Q17*************                         //## Excellent ##//
+
+head -4 /etc/passwd
+
+**************Q18*************                         //## Excellent ##//
+
+tail -7 /etc/passwd
+
+**************Q19*************
+
+echo "ali_hamdy_ali_hassan_ITI" | sudo tee /home/my_code.text         //## Perfect ##//
+
+
+cat /home/* | grep -l ali_hamdy_ali_hassan_ITI   --------------------> cd /home/ && grep -r 'ali_hamdy_ali_hassan_ITI'
+
+
+
+
+
