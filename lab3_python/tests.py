@@ -1,6 +1,9 @@
 from lab3 import *
 
-#Q_1()
+import time
+start_time = time.time()
+Q_1()
+print("--- %s seconds ---" % (time.time() - start_time))
 
 #Q_2()
 
@@ -35,4 +38,4 @@ from lab3 import *
 
 #Q_15()
 
-Q_16()
+#Q_16()
