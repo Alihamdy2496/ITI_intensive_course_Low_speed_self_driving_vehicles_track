@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/iti_lab2/iti_lab2.egg-info/PKG-INFO
+writing dependency_links to ../../build/iti_lab2/iti_lab2.egg-info/dependency_links.txt
+writing entry points to ../../build/iti_lab2/iti_lab2.egg-info/entry_points.txt
+writing requirements to ../../build/iti_lab2/iti_lab2.egg-info/requires.txt
+writing top-level names to ../../build/iti_lab2/iti_lab2.egg-info/top_level.txt
+reading manifest file '../../build/iti_lab2/iti_lab2.egg-info/SOURCES.txt'
+writing manifest file '../../build/iti_lab2/iti_lab2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying iti_lab2/receiver_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/build/iti_lab2/build/lib/iti_lab2
+copying iti_lab2/reset_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/build/iti_lab2/build/lib/iti_lab2
+running install
+running install_lib
+copying /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/build/iti_lab2/build/lib/iti_lab2/receiver_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2/lib/python3.8/site-packages/iti_lab2
+copying /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/build/iti_lab2/build/lib/iti_lab2/reset_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2/lib/python3.8/site-packages/iti_lab2
+byte-compiling /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2/lib/python3.8/site-packages/iti_lab2/receiver_node.py to receiver_node.cpython-38.pyc
+byte-compiling /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2/lib/python3.8/site-packages/iti_lab2/reset_node.py to reset_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2/lib/python3.8/site-packages/iti_lab2-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/iti_lab2/iti_lab2.egg-info to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2/lib/python3.8/site-packages/iti_lab2-0.0.0-py3.8.egg-info
+running install_scripts
+Installing publisher_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2/lib/iti_lab2
+Installing receiver_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2/lib/iti_lab2
+Installing reset_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2/lib/iti_lab2
+writing list of installed files to '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/build/iti_lab2/install.log'

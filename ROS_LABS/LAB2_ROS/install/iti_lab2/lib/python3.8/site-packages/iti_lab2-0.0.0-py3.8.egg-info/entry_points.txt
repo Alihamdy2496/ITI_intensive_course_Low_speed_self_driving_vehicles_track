@@ -1,0 +1,6 @@
+[console_scripts]
+publisher_node = iti_lab2.publisher_node:main
+receiver_node = iti_lab2.receiver_node:main
+reset_node = iti_lab2.reset_node:main
+task2_node_client = iti_lab2.task2_client:main
+
