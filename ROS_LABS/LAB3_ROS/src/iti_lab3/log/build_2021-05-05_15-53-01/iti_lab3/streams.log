@@ -1,0 +1,26 @@
+[0.333s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/iti_lab3 build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/build/iti_lab3/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3 --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/build/iti_lab3/install.log --single-version-externally-managed
+[0.617s] running egg_info
+[0.618s] writing build/iti_lab3/iti_lab3.egg-info/PKG-INFO
+[0.618s] writing dependency_links to build/iti_lab3/iti_lab3.egg-info/dependency_links.txt
+[0.618s] writing entry points to build/iti_lab3/iti_lab3.egg-info/entry_points.txt
+[0.619s] writing requirements to build/iti_lab3/iti_lab3.egg-info/requires.txt
+[0.619s] writing top-level names to build/iti_lab3/iti_lab3.egg-info/top_level.txt
+[0.661s] reading manifest file 'build/iti_lab3/iti_lab3.egg-info/SOURCES.txt'
+[0.662s] writing manifest file 'build/iti_lab3/iti_lab3.egg-info/SOURCES.txt'
+[0.662s] running build
+[0.662s] running build_py
+[0.662s] copying iti_lab3/reset_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/build/iti_lab3/build/lib/iti_lab3
+[0.663s] running install
+[0.664s] running install_lib
+[0.665s] copying /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/build/iti_lab3/build/lib/iti_lab3/reset_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3/lib/python3.8/site-packages/iti_lab3
+[0.666s] byte-compiling /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3/lib/python3.8/site-packages/iti_lab3/reset_node.py to reset_node.cpython-38.pyc
+[0.667s] running install_data
+[0.668s] running install_egg_info
+[0.670s] removing '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3/lib/python3.8/site-packages/iti_lab3-0.0.0-py3.8.egg-info' (and everything under it)
+[0.670s] Copying build/iti_lab3/iti_lab3.egg-info to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3/lib/python3.8/site-packages/iti_lab3-0.0.0-py3.8.egg-info
+[0.671s] running install_scripts
+[0.690s] Installing publisher_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3/lib/iti_lab3
+[0.690s] Installing receiver_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3/lib/iti_lab3
+[0.690s] Installing reset_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3/lib/iti_lab3
+[0.691s] writing list of installed files to '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/build/iti_lab3/install.log'
+[0.722s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3' returned '0': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/iti_lab3 build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/build/iti_lab3/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/install/iti_lab3 --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3/build/iti_lab3/install.log --single-version-externally-managed

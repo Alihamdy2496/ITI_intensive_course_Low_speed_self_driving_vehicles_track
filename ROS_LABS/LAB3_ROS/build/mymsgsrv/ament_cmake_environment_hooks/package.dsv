@@ -1,0 +1,4 @@
+source;share/mymsgsrv/local_setup.bash
+source;share/mymsgsrv/local_setup.dsv
+source;share/mymsgsrv/local_setup.sh
+source;share/mymsgsrv/local_setup.zsh

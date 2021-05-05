@@ -1,0 +1,202 @@
+[0.373s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.373s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7facea596b80>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7facea596b80>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7facea5a2130>)
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.380s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/iti_lab3) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/iti_lab3) by extension 'ignore'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/iti_lab3) by extension 'ignore_ament_install'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/iti_lab3) by extensions ['colcon_pkg']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/iti_lab3) by extension 'colcon_pkg'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/iti_lab3) by extensions ['colcon_meta']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/iti_lab3) by extension 'colcon_meta'
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/iti_lab3) by extensions ['ros']
+[0.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/iti_lab3) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iti_lab3' with type 'ros.ament_python' and name 'iti_lab3'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mymsgsrv) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mymsgsrv) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mymsgsrv) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mymsgsrv) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mymsgsrv) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mymsgsrv) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mymsgsrv) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mymsgsrv) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/mymsgsrv) by extension 'ros'
+[0.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mymsgsrv' with type 'ros.ament_cmake' and name 'mymsgsrv'
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'iti_lab3' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'iti_lab3' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'iti_lab3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'iti_lab3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'iti_lab3' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'iti_lab3' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'iti_lab3' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'iti_lab3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'iti_lab3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'iti_lab3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/iti_lab3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3', 'merge_install': False, 'path': '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3', 'symlink_install': False, 'test_result_base': None}
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'mymsgsrv' build argument 'cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'mymsgsrv' build argument 'cmake_target' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'mymsgsrv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'mymsgsrv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'mymsgsrv' build argument 'cmake_clean_first' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'mymsgsrv' build argument 'cmake_force_configure' from command line to 'False'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'mymsgsrv' build argument 'ament_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'mymsgsrv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.425s] Level 5:colcon.colcon_core.verb:set package 'mymsgsrv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.425s] DEBUG:colcon.colcon_core.verb:Building package 'mymsgsrv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv', 'merge_install': False, 'path': '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/mymsgsrv', 'symlink_install': False, 'test_result_base': None}
+[0.425s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.429s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.429s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3' with build type 'ament_python'
+[0.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('iti_lab3', 'ament_prefix_path')
+[0.434s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/hook/ament_prefix_path.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/hook/ament_prefix_path.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/hook/ament_prefix_path.sh'
+[0.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/mymsgsrv' with build type 'ament_cmake'
+[0.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/mymsgsrv'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.449s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.749s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3'
+[0.750s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.750s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.753s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv -- -j4 -l4
+[0.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab3 build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/iti_lab3/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3 --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/iti_lab3/install.log --single-version-externally-managed
+[0.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv -- -j4 -l4
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake --install /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv
+[1.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mymsgsrv)
+[1.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake --install /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv' for CMake module files
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv' for CMake config files
+[1.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('mymsgsrv', 'cmake_prefix_path')
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/cmake_prefix_path.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/cmake_prefix_path.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/cmake_prefix_path.sh'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib'
+[1.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('mymsgsrv', 'ld_library_path_lib')
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/ld_library_path_lib.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/ld_library_path_lib.dsv'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/ld_library_path_lib.sh'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/bin'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/pkgconfig/mymsgsrv.pc'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages'
+[1.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('mymsgsrv', 'pythonpath')
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/pythonpath.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/pythonpath.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/pythonpath.sh'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.sh'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.bash'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.zsh'
+[1.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/colcon-core/packages/mymsgsrv)
+[1.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mymsgsrv)
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv' for CMake module files
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv' for CMake config files
+[1.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('mymsgsrv', 'cmake_prefix_path')
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/cmake_prefix_path.ps1'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/cmake_prefix_path.dsv'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/cmake_prefix_path.sh'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib'
+[1.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('mymsgsrv', 'ld_library_path_lib')
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/ld_library_path_lib.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/ld_library_path_lib.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/ld_library_path_lib.sh'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/bin'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/pkgconfig/mymsgsrv.pc'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages'
+[1.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('mymsgsrv', 'pythonpath')
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/pythonpath.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/pythonpath.dsv'
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/hook/pythonpath.sh'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.sh'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.bash'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.zsh'
+[1.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/colcon-core/packages/mymsgsrv)
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3' for CMake module files
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/iti_lab3' returned '0': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab3 build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/iti_lab3/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3 --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/iti_lab3/install.log --single-version-externally-managed
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3' for CMake config files
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/lib'
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/bin'
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/lib/pkgconfig/iti_lab3.pc'
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/lib/python3.8/site-packages'
+[1.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('iti_lab3', 'pythonpath')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/hook/pythonpath.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/hook/pythonpath.dsv'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/hook/pythonpath.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iti_lab3)
+[1.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/package.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/package.dsv'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/package.sh'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/package.bash'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/iti_lab3/package.zsh'
+[1.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/iti_lab3/share/colcon-core/packages/iti_lab3)
+[1.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.261s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.262s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.269s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.282s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/local_setup.ps1'
+[1.285s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/_local_setup_util_ps1.py'
+[1.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/setup.ps1'
+[1.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/local_setup.sh'
+[1.292s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/_local_setup_util_sh.py'
+[1.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/setup.sh'
+[1.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/local_setup.bash'
+[1.298s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/setup.bash'
+[1.301s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/local_setup.zsh'
+[1.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/setup.zsh'

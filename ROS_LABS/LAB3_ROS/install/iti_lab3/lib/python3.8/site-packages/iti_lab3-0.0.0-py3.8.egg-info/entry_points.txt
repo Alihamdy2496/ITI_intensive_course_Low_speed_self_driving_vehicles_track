@@ -1,0 +1,5 @@
+[console_scripts]
+publisher_node = iti_lab3.publisher_node:main
+receiver_node = iti_lab3.receiver_node:main
+reset_node = iti_lab3.reset_node:main
+

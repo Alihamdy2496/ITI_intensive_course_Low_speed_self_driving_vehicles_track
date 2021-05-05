@@ -1,0 +1,21 @@
+{
+  "package_name": "mymsgsrv",
+  "output_dir": "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv/rosidl_typesupport_fastrtps_cpp/mymsgsrv",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv/rosidl_adapter/mymsgsrv:msg/CustomMsg.idl",
+    "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv/rosidl_adapter/mymsgsrv:srv/CustomSrv.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv/rosidl_adapter/mymsgsrv/msg/CustomMsg.idl",
+    "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv/rosidl_adapter/mymsgsrv/srv/CustomSrv.idl"
+  ]
+}

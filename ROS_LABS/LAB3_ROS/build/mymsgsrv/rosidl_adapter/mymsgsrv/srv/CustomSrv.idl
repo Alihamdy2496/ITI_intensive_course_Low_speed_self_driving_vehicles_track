@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mymsgsrv/srv/CustomSrv.srv
+// generated code does not contain a copyright notice
+
+
+module mymsgsrv {
+  module srv {
+    @verbatim (language="comment", text=
+      " custom service that would be called from node3, the service should have a boolean variable in the" "\n"
+      " request and a string variable in the response")
+    struct CustomSrv_Request {
+      boolean reqq;
+    };
+    struct CustomSrv_Response {
+      string rspp;
+    };
+  };
+};

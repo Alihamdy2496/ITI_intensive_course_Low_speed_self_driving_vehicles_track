@@ -1,0 +1,250 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/ali/anaconda3/bin/python3 (found suitable version "3.8.8", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/ali/anaconda3/bin/python3
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /home/ali/anaconda3/lib/libcrypto.so (found version "1.1.1k")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/ali/anaconda3/bin/python3 (found version "3.8.8") 
+-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/ali/anaconda3/bin/python3 (found suitable version "3.8.8", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /home/ali/anaconda3/lib/libpython3.8.so (found suitable version "3.8.8", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/ali/anaconda3/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/ali/anaconda3/include/python3.8
+-- Using PYTHON_LIBRARIES: /home/ali/anaconda3/lib/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /home/ali/.local/lib/python3.8/site-packages/numpy/core/include
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/build/mymsgsrv
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target mymsgsrv__cpp[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target mymsgsrv__cpp
+[  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_generator_c[0m
+[ 15%] [32mBuilding C object CMakeFiles/mymsgsrv__rosidl_generator_c.dir/rosidl_generator_c/mymsgsrv/msg/detail/custom_msg__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/mymsgsrv__rosidl_generator_c.dir/rosidl_generator_c/mymsgsrv/srv/detail/custom_srv__functions.c.o[0m
+[ 20%] [32m[1mLinking C shared library libmymsgsrv__rosidl_generator_c.so[0m
+[ 20%] Built target mymsgsrv__rosidl_generator_c
+[ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_typesupport_cpp[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsgsrv/msg/custom_msg__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_typesupport_introspection_cpp[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsgsrv/msg/detail/custom_msg__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_typesupport_fastrtps_cpp[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsgsrv/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_typesupport_c[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsgsrv/msg/custom_msg__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_c.dir/rosidl_typesupport_c/mymsgsrv/srv/custom_srv__type_support.cpp.o[0m
+[ 38%] [32m[1mLinking CXX shared library libmymsgsrv__rosidl_typesupport_c.so[0m
+[ 38%] Built target mymsgsrv__rosidl_typesupport_c
+[ 41%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mymsgsrv/srv/detail/custom_srv__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mymsgsrv/srv/custom_srv__type_support.cpp.o[0m
+[ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 48%] [32m[1mLinking CXX shared library libmymsgsrv__rosidl_typesupport_introspection_cpp.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mymsgsrv/srv/detail/dds_fastrtps/custom_srv__type_support.cpp.o[0m
+[ 51%] Built target mymsgsrv__rosidl_typesupport_introspection_cpp
+[ 53%] [32m[1mLinking CXX shared library libmymsgsrv__rosidl_typesupport_cpp.so[0m
+[ 53%] Built target mymsgsrv__rosidl_typesupport_cpp
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_typesupport_introspection_c[0m
+[ 56%] [32mBuilding C object CMakeFiles/mymsgsrv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsgsrv/srv/detail/custom_srv__type_support.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/mymsgsrv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mymsgsrv/msg/detail/custom_msg__type_support.c.o[0m
+[ 61%] [32m[1mLinking C shared library libmymsgsrv__rosidl_typesupport_introspection_c.so[0m
+[ 61%] Built target mymsgsrv__rosidl_typesupport_introspection_c
+[ 64%] [32m[1mLinking CXX shared library libmymsgsrv__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 64%] Built target mymsgsrv__rosidl_typesupport_fastrtps_cpp
+[ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_typesupport_fastrtps_c[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsgsrv/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/mymsgsrv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mymsgsrv/srv/detail/custom_srv__type_support_c.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libmymsgsrv__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] Built target mymsgsrv__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target mymsgsrv[0m
+[ 74%] Built target mymsgsrv
+[35m[1mScanning dependencies of target mymsgsrv__py[0m
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 76%] Built target mymsgsrv__py
+[35m[1mScanning dependencies of target mymsgsrv__python[0m
+[ 82%] [32mBuilding C object CMakeFiles/mymsgsrv__python.dir/rosidl_generator_py/mymsgsrv/msg/_custom_msg_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/mymsgsrv__python.dir/rosidl_generator_py/mymsgsrv/srv/_custom_srv_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/mymsgsrv/libmymsgsrv__python.so[0m
+[ 84%] Built target mymsgsrv__python
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target mymsgsrv__rosidl_typesupport_introspection_c__pyext[0m
+[ 87%] [32mBuilding C object CMakeFiles/mymsgsrv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mymsgsrv/_mymsgsrv_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/mymsgsrv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mymsgsrv/_mymsgsrv_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/mymsgsrv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mymsgsrv/_mymsgsrv_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/mymsgsrv/mymsgsrv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/mymsgsrv/mymsgsrv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/mymsgsrv/mymsgsrv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target mymsgsrv__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target mymsgsrv__rosidl_typesupport_c__pyext
+[100%] Built target mymsgsrv__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/ament_index/resource_index/rosidl_interfaces/mymsgsrv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/custom_msg.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__functions.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__type_support.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__struct.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__functions.c
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__functions.c
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__struct.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__functions.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__type_support.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/custom_srv.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/environment/library_path.sh
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/environment/library_path.dsv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_generator_c.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/dds_fastrtps
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/dds_fastrtps
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__type_support.c
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__type_support.c
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_c.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/custom_msg.hpp
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__struct.hpp
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__builder.hpp
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__traits.hpp
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/custom_srv.hpp
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__struct.hpp
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__builder.hpp
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__traits.hpp
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/msg/detail/custom_msg__type_support.cpp
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv
+-- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__type_support.cpp
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/include/mymsgsrv/srv/detail/custom_srv__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/environment/pythonpath.sh
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/environment/pythonpath.dsv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/__init__.py
+Compiling '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/__init__.py'...
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/msg
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/msg/__init__.py
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/msg/_custom_msg_s.c
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/msg/_custom_msg.py
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/srv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/srv/__init__.py
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/srv/_custom_srv_s.c
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/srv/_custom_srv.py
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/mymsgsrv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/mymsgsrv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/mymsgsrv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/mymsgsrv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/mymsgsrv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/python3.8/site-packages/mymsgsrv/mymsgsrv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__python.so
+-- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/lib/libmymsgsrv__python.so" to ""
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/msg/CustomMsg.idl
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/srv/CustomSrv.idl
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/msg/CustomMsg.msg
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/srv/CustomSrv.srv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/srv/CustomSrv_Request.msg
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/srv/CustomSrv_Response.msg
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/ament_index/resource_index/package_run_dependencies/mymsgsrv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/ament_index/resource_index/parent_prefix_path/mymsgsrv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/environment/ament_prefix_path.sh
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/environment/ament_prefix_path.dsv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/environment/path.sh
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/environment/path.dsv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/local_setup.bash
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/local_setup.sh
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/local_setup.zsh
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/local_setup.dsv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.dsv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/ament_index/resource_index/packages/mymsgsrv
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_generator_cExport.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_generator_cppExport.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrv__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrvConfig.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/cmake/mymsgsrvConfig-version.cmake
+-- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/install/mymsgsrv/share/mymsgsrv/package.xml

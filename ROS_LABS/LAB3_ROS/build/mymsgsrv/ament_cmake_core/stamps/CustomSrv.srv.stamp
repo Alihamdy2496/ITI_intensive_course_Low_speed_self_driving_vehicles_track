@@ -1,0 +1,5 @@
+# custom service that would be called from node3, the service should have a boolean variable in the
+# request and a string variable in the response
+bool reqq
+---
+string rspp

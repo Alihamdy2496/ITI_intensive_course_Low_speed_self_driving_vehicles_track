@@ -1,0 +1,7 @@
+{
+  "package_name": "mymsgsrv",
+  "non_idl_tuples": [
+    "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/mymsgsrv:msg/CustomMsg.msg",
+    "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB3/src/mymsgsrv:srv/CustomSrv.srv"
+  ]
+}
