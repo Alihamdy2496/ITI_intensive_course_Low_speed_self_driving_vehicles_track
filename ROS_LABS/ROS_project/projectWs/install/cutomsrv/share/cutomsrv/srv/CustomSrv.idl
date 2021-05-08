@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cutomsrv/srv/CustomSrv.srv
+// generated code does not contain a copyright notice
+
+
+module cutomsrv {
+  module srv {
+    struct CustomSrv_Request {
+      double x;
+
+      double y;
+    };
+    struct CustomSrv_Response {
+      boolean ack;
+    };
+  };
+};

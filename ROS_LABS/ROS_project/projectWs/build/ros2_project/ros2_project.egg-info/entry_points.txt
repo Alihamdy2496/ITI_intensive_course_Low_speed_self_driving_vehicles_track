@@ -1,0 +1,4 @@
+[console_scripts]
+control_node = ros2_project.control_node:main
+spawn_node = ros2_project.spawn_node:main
+

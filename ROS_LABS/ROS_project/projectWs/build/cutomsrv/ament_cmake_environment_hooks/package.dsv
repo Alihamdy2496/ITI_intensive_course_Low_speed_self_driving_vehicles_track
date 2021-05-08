@@ -1,0 +1,4 @@
+source;share/cutomsrv/local_setup.bash
+source;share/cutomsrv/local_setup.dsv
+source;share/cutomsrv/local_setup.sh
+source;share/cutomsrv/local_setup.zsh

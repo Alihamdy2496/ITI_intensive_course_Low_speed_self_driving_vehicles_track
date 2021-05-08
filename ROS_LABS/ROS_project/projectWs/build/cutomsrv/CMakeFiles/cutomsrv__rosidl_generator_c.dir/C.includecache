@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv/rosidl_generator_c/cutomsrv/srv/detail/custom_srv__functions.c
+cutomsrv/srv/detail/custom_srv__functions.h
+/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv/rosidl_generator_c/cutomsrv/srv/detail/cutomsrv/srv/detail/custom_srv__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/cutomsrv/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/cutomsrv/srv/detail/custom_srv__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/cutomsrv/srv/detail/rosidl_runtime_c/visibility_control.h
+cutomsrv/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/cutomsrv/srv/detail/cutomsrv/msg/rosidl_generator_c__visibility_control.h
+cutomsrv/srv/detail/custom_srv__struct.h
+rosidl_generator_c/cutomsrv/srv/detail/cutomsrv/srv/detail/custom_srv__struct.h
+
+rosidl_generator_c/cutomsrv/srv/detail/custom_srv__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+

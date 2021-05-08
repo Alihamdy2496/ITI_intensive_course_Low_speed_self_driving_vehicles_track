@@ -1,0 +1,218 @@
+[0.037s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/src/cutomsrv -DCMAKE_INSTALL_PREFIX=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv
+[2.009s] -- The C compiler identification is GNU 9.3.0
+[3.323s] -- The CXX compiler identification is GNU 9.3.0
+[3.461s] -- Detecting C compiler ABI info
+[3.632s] -- Detecting C compiler ABI info - done
+[3.643s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.649s] -- Detecting C compile features
+[3.663s] -- Detecting C compile features - done
+[3.689s] -- Detecting CXX compiler ABI info
+[3.772s] -- Detecting CXX compiler ABI info - done
+[3.784s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.784s] -- Detecting CXX compile features
+[3.785s] -- Detecting CXX compile features - done
+[3.850s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.945s] -- Found PythonInterp: /home/ali/anaconda3/bin/python3 (found suitable version "3.8.8", minimum required is "3") 
+[3.945s] -- Using PYTHON_EXECUTABLE: /home/ali/anaconda3/bin/python3
+[8.649s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[8.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.753s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.678s] -- Found OpenSSL: /home/ali/anaconda3/lib/libcrypto.so (found version "1.1.1k")  
+[9.781s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.272s] -- Found PythonInterp: /home/ali/anaconda3/bin/python3 (found version "3.8.8") 
+[10.834s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[11.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.203s] -- Found PythonInterp: /home/ali/anaconda3/bin/python3 (found suitable version "3.8.8", minimum required is "3.5") 
+[11.208s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[11.294s] -- Found PythonLibs: /home/ali/anaconda3/lib/libpython3.8.so (found suitable version "3.8.8", minimum required is "3.5") 
+[11.294s] -- Using PYTHON_EXECUTABLE: /home/ali/anaconda3/bin/python3
+[11.294s] -- Using PYTHON_INCLUDE_DIRS: /home/ali/anaconda3/include/python3.8
+[11.294s] -- Using PYTHON_LIBRARIES: /home/ali/anaconda3/lib/libpython3.8.so
+[11.361s] -- Found PythonExtra: .so  
+[11.694s] -- Using numpy include directory: /home/ali/.local/lib/python3.8/site-packages/numpy/core/include
+[11.722s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[11.897s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.956s] -- Added test 'lint_cmake' to check CMake code style
+[11.992s] -- Added test 'xmllint' to check XML markup files
+[12.026s] -- Configuring done
+[12.145s] -- Generating done
+[12.148s] -- Build files have been written to: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv
+[12.159s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/src/cutomsrv -DCMAKE_INSTALL_PREFIX=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv
+[12.163s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv -- -j4 -l4
+[12.195s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.196s] [35m[1mScanning dependencies of target cutomsrv__cpp[0m
+[12.203s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.787s] [  6%] Built target cutomsrv__cpp
+[12.797s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.800s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.802s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.813s] [35m[1mScanning dependencies of target cutomsrv__rosidl_generator_c[0m
+[12.844s] [ 19%] [32mBuilding C object CMakeFiles/cutomsrv__rosidl_generator_c.dir/rosidl_generator_c/cutomsrv/srv/detail/custom_srv__functions.c.o[0m
+[13.314s] [ 22%] [32m[1mLinking C shared library libcutomsrv__rosidl_generator_c.so[0m
+[13.369s] [ 22%] Built target cutomsrv__rosidl_generator_c
+[13.396s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.442s] [35m[1mScanning dependencies of target cutomsrv__rosidl_typesupport_cpp[0m
+[13.483s] [35m[1mScanning dependencies of target cutomsrv__rosidl_typesupport_introspection_cpp[0m
+[13.501s] [35m[1mScanning dependencies of target cutomsrv__rosidl_typesupport_fastrtps_cpp[0m
+[13.516s] [ 29%] [32mBuilding CXX object CMakeFiles/cutomsrv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cutomsrv/srv/custom_srv__type_support.cpp.o[0m
+[13.533s] [ 32%] [32mBuilding CXX object CMakeFiles/cutomsrv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cutomsrv/srv/detail/custom_srv__type_support.cpp.o[0m
+[13.834s] [35m[1mScanning dependencies of target cutomsrv__rosidl_typesupport_c[0m
+[13.849s] [ 35%] [32mBuilding CXX object CMakeFiles/cutomsrv__rosidl_typesupport_c.dir/rosidl_typesupport_c/cutomsrv/srv/custom_srv__type_support.cpp.o[0m
+[13.894s] [ 38%] [32mBuilding CXX object CMakeFiles/cutomsrv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cutomsrv/srv/detail/dds_fastrtps/custom_srv__type_support.cpp.o[0m
+[14.131s] [ 41%] [32m[1mLinking CXX shared library libcutomsrv__rosidl_typesupport_c.so[0m
+[14.174s] [ 41%] Built target cutomsrv__rosidl_typesupport_c
+[14.183s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.678s] [35m[1mScanning dependencies of target cutomsrv__rosidl_typesupport_introspection_c[0m
+[14.783s] [ 48%] [32mBuilding C object CMakeFiles/cutomsrv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cutomsrv/srv/detail/custom_srv__type_support.c.o[0m
+[14.823s] [ 51%] [32m[1mLinking C shared library libcutomsrv__rosidl_typesupport_introspection_c.so[0m
+[14.862s] [ 51%] Built target cutomsrv__rosidl_typesupport_introspection_c
+[15.351s] [ 54%] [32m[1mLinking CXX shared library libcutomsrv__rosidl_typesupport_cpp.so[0m
+[15.373s] [ 58%] [32m[1mLinking CXX shared library libcutomsrv__rosidl_typesupport_introspection_cpp.so[0m
+[15.409s] [ 58%] Built target cutomsrv__rosidl_typesupport_cpp
+[15.439s] [ 58%] Built target cutomsrv__rosidl_typesupport_introspection_cpp
+[15.852s] [ 61%] [32m[1mLinking CXX shared library libcutomsrv__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.989s] [ 61%] Built target cutomsrv__rosidl_typesupport_fastrtps_cpp
+[15.996s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.348s] [35m[1mScanning dependencies of target cutomsrv__rosidl_typesupport_fastrtps_c[0m
+[16.377s] [ 67%] [32mBuilding CXX object CMakeFiles/cutomsrv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cutomsrv/srv/detail/custom_srv__type_support_c.cpp.o[0m
+[16.847s] [ 70%] [32m[1mLinking CXX shared library libcutomsrv__rosidl_typesupport_fastrtps_c.so[0m
+[16.957s] [ 70%] Built target cutomsrv__rosidl_typesupport_fastrtps_c
+[16.968s] [35m[1mScanning dependencies of target cutomsrv[0m
+[16.976s] [ 70%] Built target cutomsrv
+[16.984s] [35m[1mScanning dependencies of target cutomsrv__py[0m
+[16.993s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.624s] [ 74%] Built target cutomsrv__py
+[17.633s] [35m[1mScanning dependencies of target cutomsrv__python[0m
+[17.821s] [ 77%] [32mBuilding C object CMakeFiles/cutomsrv__python.dir/rosidl_generator_py/cutomsrv/srv/_custom_srv_s.c.o[0m
+[18.269s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/cutomsrv/libcutomsrv__python.so[0m
+[18.308s] [ 80%] Built target cutomsrv__python
+[18.317s] [35m[1mScanning dependencies of target cutomsrv__rosidl_typesupport_introspection_c__pyext[0m
+[18.319s] [35m[1mScanning dependencies of target cutomsrv__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.319s] [35m[1mScanning dependencies of target cutomsrv__rosidl_typesupport_c__pyext[0m
+[18.357s] [ 83%] [32mBuilding C object CMakeFiles/cutomsrv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cutomsrv/_cutomsrv_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.357s] [ 87%] [32mBuilding C object CMakeFiles/cutomsrv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cutomsrv/_cutomsrv_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.359s] [ 90%] [32mBuilding C object CMakeFiles/cutomsrv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cutomsrv/_cutomsrv_s.ep.rosidl_typesupport_c.c.o[0m
+[18.475s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/cutomsrv/cutomsrv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.514s] [ 93%] Built target cutomsrv__rosidl_typesupport_c__pyext
+[18.520s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/cutomsrv/cutomsrv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.533s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/cutomsrv/cutomsrv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[18.554s] [100%] Built target cutomsrv__rosidl_typesupport_introspection_c__pyext
+[18.604s] [100%] Built target cutomsrv__rosidl_typesupport_fastrtps_c__pyext
+[18.613s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake --build /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv -- -j4 -l4
+[18.682s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake --install /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv
+[18.688s] -- Install configuration: ""
+[18.688s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/ament_index/resource_index/rosidl_interfaces/cutomsrv
+[18.689s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv
+[18.689s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/msg
+[18.689s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/msg/rosidl_generator_c__visibility_control.h
+[18.689s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv
+[18.689s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail
+[18.690s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__functions.c
+[18.690s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__struct.h
+[18.690s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__functions.h
+[18.690s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__type_support.h
+[18.690s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/custom_srv.h
+[18.690s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/environment/library_path.sh
+[18.691s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/environment/library_path.dsv
+[18.691s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_generator_c.so
+[18.691s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_generator_c.so" to ""
+[18.691s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv
+[18.691s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/msg
+[18.692s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.692s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv
+[18.692s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail
+[18.692s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__rosidl_typesupport_fastrtps_c.h
+[18.692s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_fastrtps_c.so
+[18.693s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_fastrtps_c.so" to ""
+[18.693s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv
+[18.693s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/msg
+[18.693s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.693s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv
+[18.694s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail
+[18.694s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[18.694s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/dds_fastrtps
+[18.695s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_fastrtps_cpp.so
+[18.695s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.695s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv
+[18.695s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/msg
+[18.695s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.696s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv
+[18.696s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail
+[18.696s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__type_support.c
+[18.696s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__rosidl_typesupport_introspection_c.h
+[18.696s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_introspection_c.so
+[18.697s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_introspection_c.so" to ""
+[18.697s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_c.so
+[18.697s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_c.so" to ""
+[18.697s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv
+[18.697s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv
+[18.697s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/custom_srv.hpp
+[18.697s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail
+[18.697s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__struct.hpp
+[18.697s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__builder.hpp
+[18.698s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__traits.hpp
+[18.698s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv
+[18.698s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv
+[18.698s] -- Up-to-date: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail
+[18.698s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__type_support.cpp
+[18.698s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/include/cutomsrv/srv/detail/custom_srv__rosidl_typesupport_introspection_cpp.hpp
+[18.698s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_introspection_cpp.so
+[18.698s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_introspection_cpp.so" to ""
+[18.698s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_cpp.so
+[18.699s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__rosidl_typesupport_cpp.so" to ""
+[18.699s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/environment/pythonpath.sh
+[18.699s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/environment/pythonpath.dsv
+[18.699s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/__init__.py
+[18.746s] Compiling '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/__init__.py'...
+[18.751s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/srv
+[18.752s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/srv/__init__.py
+[18.752s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/srv/_custom_srv_s.c
+[18.752s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/srv/_custom_srv.py
+[18.752s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/cutomsrv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[18.752s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/cutomsrv_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[18.752s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/cutomsrv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[18.753s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/cutomsrv_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[18.753s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/cutomsrv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[18.753s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/python3.8/site-packages/cutomsrv/cutomsrv_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[18.753s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__python.so
+[18.754s] -- Set runtime path of "/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/lib/libcutomsrv__python.so" to ""
+[18.754s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/srv/CustomSrv.idl
+[18.754s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/srv/CustomSrv.srv
+[18.754s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/srv/CustomSrv_Request.msg
+[18.754s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/srv/CustomSrv_Response.msg
+[18.754s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/ament_index/resource_index/package_run_dependencies/cutomsrv
+[18.754s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/ament_index/resource_index/parent_prefix_path/cutomsrv
+[18.755s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/environment/ament_prefix_path.sh
+[18.755s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/environment/ament_prefix_path.dsv
+[18.755s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/environment/path.sh
+[18.755s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/environment/path.dsv
+[18.755s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/local_setup.bash
+[18.756s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/local_setup.sh
+[18.756s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/local_setup.zsh
+[18.756s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/local_setup.dsv
+[18.756s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/package.dsv
+[18.756s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/ament_index/resource_index/packages/cutomsrv
+[18.756s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_generator_cExport.cmake
+[18.756s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_generator_cExport-noconfig.cmake
+[18.756s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_typesupport_introspection_cExport.cmake
+[18.757s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.757s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_typesupport_cExport.cmake
+[18.757s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_typesupport_cExport-noconfig.cmake
+[18.757s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_generator_cppExport.cmake
+[18.757s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_typesupport_introspection_cppExport.cmake
+[18.757s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.757s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_typesupport_cppExport.cmake
+[18.757s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrv__rosidl_typesupport_cppExport-noconfig.cmake
+[18.758s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/rosidl_cmake-extras.cmake
+[18.758s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.758s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/ament_cmake_export_libraries-extras.cmake
+[18.758s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/ament_cmake_export_targets-extras.cmake
+[18.758s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.758s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.758s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.759s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrvConfig.cmake
+[18.759s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/cmake/cutomsrvConfig-version.cmake
+[18.759s] -- Installing: /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/cutomsrv/share/cutomsrv/package.xml
+[18.763s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/LAB2_ROS/install/iti_lab2:/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/ROS_ws/install/pkg_name:/opt/ros/foxy /home/ali/anaconda3/bin/cmake --install /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/cutomsrv

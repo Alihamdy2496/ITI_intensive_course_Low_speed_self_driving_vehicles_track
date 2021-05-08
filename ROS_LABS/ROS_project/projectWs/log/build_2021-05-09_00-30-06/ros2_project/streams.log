@@ -1,0 +1,41 @@
+[0.412s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/src/ros2_project': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_project build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/install.log --single-version-externally-managed
+[0.760s] running egg_info
+[0.761s] creating ../../build/ros2_project/ros2_project.egg-info
+[0.761s] writing ../../build/ros2_project/ros2_project.egg-info/PKG-INFO
+[0.761s] writing dependency_links to ../../build/ros2_project/ros2_project.egg-info/dependency_links.txt
+[0.761s] writing entry points to ../../build/ros2_project/ros2_project.egg-info/entry_points.txt
+[0.761s] writing requirements to ../../build/ros2_project/ros2_project.egg-info/requires.txt
+[0.762s] writing top-level names to ../../build/ros2_project/ros2_project.egg-info/top_level.txt
+[0.763s] writing manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.805s] reading manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.806s] writing manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.806s] running build
+[0.807s] running build_py
+[0.807s] creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build
+[0.807s] creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build/lib
+[0.807s] creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build/lib/ros2_project
+[0.808s] copying ros2_project/__init__.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build/lib/ros2_project
+[0.808s] copying ros2_project/control_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build/lib/ros2_project
+[0.808s] copying ros2_project/spawn_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build/lib/ros2_project
+[0.808s] running install
+[0.809s] running install_lib
+[0.811s] creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project
+[0.811s] copying /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build/lib/ros2_project/__init__.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project
+[0.812s] copying /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build/lib/ros2_project/control_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project
+[0.812s] copying /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build/lib/ros2_project/spawn_node.py -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project
+[0.813s] byte-compiling /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project/__init__.py to __init__.cpython-38.pyc
+[0.814s] byte-compiling /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project/control_node.py to control_node.cpython-38.pyc
+[0.815s] byte-compiling /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project/spawn_node.py to spawn_node.cpython-38.pyc
+[0.816s] running install_data
+[0.817s] creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/share/ament_index
+[0.817s] creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/share/ament_index/resource_index
+[0.817s] creating /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/share/ament_index/resource_index/packages
+[0.817s] copying resource/ros2_project -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/share/ament_index/resource_index/packages
+[0.818s] copying package.xml -> /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/share/ros2_project
+[0.818s] running install_egg_info
+[0.819s] Copying ../../build/ros2_project/ros2_project.egg-info to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project-0.0.0-py3.8.egg-info
+[0.821s] running install_scripts
+[0.843s] Installing control_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/ros2_project
+[0.843s] Installing spawn_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/ros2_project
+[0.843s] writing list of installed files to '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/install.log'
+[0.880s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/src/ros2_project' returned '0': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_project build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/install.log --single-version-externally-managed

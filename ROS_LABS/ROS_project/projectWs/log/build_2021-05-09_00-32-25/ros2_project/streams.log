@@ -1,0 +1,22 @@
+[0.468s] Invoking command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/src/ros2_project': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_project build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/install.log --single-version-externally-managed
+[0.851s] running egg_info
+[0.852s] writing ../../build/ros2_project/ros2_project.egg-info/PKG-INFO
+[0.852s] writing dependency_links to ../../build/ros2_project/ros2_project.egg-info/dependency_links.txt
+[0.852s] writing entry points to ../../build/ros2_project/ros2_project.egg-info/entry_points.txt
+[0.853s] writing requirements to ../../build/ros2_project/ros2_project.egg-info/requires.txt
+[0.853s] writing top-level names to ../../build/ros2_project/ros2_project.egg-info/top_level.txt
+[0.897s] reading manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.898s] writing manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.898s] running build
+[0.898s] running build_py
+[0.899s] running install
+[0.900s] running install_lib
+[0.903s] running install_data
+[0.904s] running install_egg_info
+[0.906s] removing '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project-0.0.0-py3.8.egg-info' (and everything under it)
+[0.906s] Copying ../../build/ros2_project/ros2_project.egg-info to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages/ros2_project-0.0.0-py3.8.egg-info
+[0.907s] running install_scripts
+[0.932s] Installing control_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/ros2_project
+[0.932s] Installing spawn_node script to /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/ros2_project
+[0.933s] writing list of installed files to '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/install.log'
+[0.970s] Invoked command in '/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/src/ros2_project' returned '0': PYTHONPATH=/home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_project build --build-base /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/build install --prefix /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/install/ros2_project --record /home/ali/Engineering/ITI/low_speed_self_driving_vehicles/ROS_lectures/projectWs/build/ros2_project/install.log --single-version-externally-managed
