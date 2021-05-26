@@ -32,7 +32,7 @@ def generate_launch_description():
             default_value='false'),
         launch.actions.DeclareLaunchArgument(
             'output_location',
-	    default_value='~/dual_ekf_navsat_example_debug.txt'),
+	    default_value='~/robot_debug.txt'),
 	
     launch_ros.actions.Node(
             package='robot_localization', 
