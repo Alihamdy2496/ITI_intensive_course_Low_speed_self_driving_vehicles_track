@@ -58,7 +58,7 @@ class new_node_class(Node):
 
 def main (args=None):
     rclpy.init(args = args)
-    node=new_node_class("Reset_node")
+    node=new_node_class("planning_node")
 
     rclpy.spin(node)
 
