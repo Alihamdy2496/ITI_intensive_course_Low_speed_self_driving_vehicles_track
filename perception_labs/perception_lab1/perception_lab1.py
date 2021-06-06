@@ -57,7 +57,7 @@ class my_node (Node):
         laser_data = msg.ranges
         angles=[a for a in range(360-65,360,1)]+[a for a in range(0,66,1)]
         for angle in angles:
-            if( laser_data[int(angle)] < ( self.min_distance / np.cos(angle) ) ):
+            if( laser_data[int(angle)] < ( self.min_distance ) ):
                 self.collision_flag=True
                 break
             else:
