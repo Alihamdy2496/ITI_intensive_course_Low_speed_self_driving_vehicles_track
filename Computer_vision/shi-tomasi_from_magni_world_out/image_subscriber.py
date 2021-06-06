@@ -6,10 +6,8 @@ import math
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
-# OpenCV2 for saving an image
 import cv2
-
-# Instantiate CvBridge
+import time
 bridge = CvBridge()
 
 class my_node (Node):
@@ -28,21 +26,21 @@ class my_node (Node):
         cv2.createTrackbar('minDistance', 'Output', 10, 100, self.nothing)
 
         cv2_img = bridge.imgmsg_to_cv2(message, "bgr8")
-        #cv2_img_r = cv2.resize(cv2_img, (480,620), interpolation = cv2.INTER_LINEAR)
-
+        #cv2_img_r = cv2.resize(cv2_img, (640,480), interpolation = cv2.INTER_LINEAR)
         out = cv2_img.copy()
         gray = cv2.cvtColor(out,cv2.COLOR_BGR2GRAY)
-
         maxCorners = cv2.getTrackbarPos('maxCorners', 'Output')
         qualityLevel = cv2.getTrackbarPos('qualityLevel', 'Output')
         minDistance = cv2.getTrackbarPos('minDistance', 'Output')
 
+        tic=time.time()
         corners = cv2.goodFeaturesToTrack(gray,maxCorners,qualityLevel/100,minDistance)
+        toc=time.time()
         corners = np.int0(corners)
         for i in corners:
             x,y = i.ravel()
             cv2.circle(out,(x,y),3,255,-1)
-
+        cv2.putText(out, 'time taken = '+ format((toc-tic)*1000,'.5f') + ' mseconds', (15, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 2, cv2.LINE_4)
         cv2.imshow('Output',out);
         k = cv2.waitKey(1)
 
